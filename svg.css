@@ -1,0 +1,58 @@
+
+.container{
+display:inline-block;
+float: left;
+border: 1px solid #2e597b;
+/* border: 5px solid red; */
+text-align: center;
+background: #2e597b;
+color: white;
+}
+
+
+
+.svgIco {
+display:inline-block;
+height: 50px;
+width: 50px;
+padding: 10px 10px;
+min-width: 40px;
+fill:white;
+}
+
+.svgSmall {
+height: 30px;
+width: 30px;
+padding: 5px 5px;
+min-width: 30px;
+fill:white;
+float:right;
+}
+
+.svgImg {
+width: 100%;
+height: auto;
+padding: 15px 15px;
+max-width: 350px;
+min-width: 150px;
+fill: black;
+}
+
+.svgImg:hover{ fill: blue; }
+
+.svgMax {
+width: 100%;
+height: auto;
+max-width: 96px;
+fill:black;
+float:left;
+}
+
+.svgIco:hover { fill: black;}
+.svgRed {fill: red;}
+.svgBlack { fill:black; }
+.svgGreen { fill:green; }
+.svgBlue { fill:blue; }
+.hide{ display:none; }
+
+.btn-close:hover{ background:red; fill:black; }

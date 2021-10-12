@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta name="Description" content="Ktupad MVC Framework by wawan sismadi">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+
+<title>Ktupad</title>
+
+<link rel="stylesheet" type="text/css" href="svg.css" async>
+</head>
+<body>
+<div id="content" class="container">
+<i class = "svgIco ico-facebook"></i>
+</div>
+<script type="text/javascript" src="svg.js"></script>
+
+<script>
+arr=svg.arr;
+out='';
+for(i in arr){
+  out+='<div class="container">';
+  out+='<i class="svgIco ico-'+arr[i]+'"></i>';
+  out+='<br>'+arr[i];
+  out+='</div>';
+}
+document.getElementById('content').innerHTML=out;
+svg.view();
+</script>
+</body>
+</html>
