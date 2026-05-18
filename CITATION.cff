@@ -1,0 +1,117 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software in your research, please cite it using
+  the metadata below. A DOI is available via Zenodo after repository
+  release. Replace the placeholder DOI with the one assigned by Zenodo.
+
+title: >-
+  SVG.js: A Lightweight JSON-Driven SVG Icon Rendering Engine
+  for Resource-Constrained Web Environments
+
+abstract: >-
+  SVG.js is a zero-dependency, client-side SVG icon rendering engine
+  that maps icon identifiers to inline SVG paths through a flat JSON
+  dictionary. Designed for the Indonesian educational web ecosystem,
+  it eliminates external font dependencies and HTTP overhead while
+  enabling full CSS custom property theming. The engine implements a
+  DonatJS-compatible class-injection pattern (di-{key}) and ships with
+  an interactive icon gallery supporting search, multi-zoom views, and
+  clipboard copy. SVG.js serves as the visual language layer of the
+  DonatJS framework ecosystem, providing a curated icon vocabulary of
+  60+ paths across UI primitives, social brand icons, and ecosystem
+  identity marks in a 24×24 viewBox coordinate space.
+
+authors:
+  - family-names: Sismadi
+    given-names: Wawan
+    orcid: "https://orcid.org/0009-0007-2685-5663"
+    affiliation: >-
+      Program Studi Informatika, Universitas IPWIJA, Jakarta, Indonesia;
+      Doctoral Program in Informatics, Universitas Ahmad Dahlan,
+      Yogyakarta, Indonesia
+    alias: ktupad
+    email: wawan@sismadi.com
+
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.XXXXXXX"
+    description: >-
+      Zenodo DOI — replace XXXXXXX with the actual DOI assigned
+      after publishing a release on GitHub and connecting to Zenodo.
+  - type: url
+    value: "https://github.com/ktupad/svg"
+    description: GitHub repository
+
+repository-code: "https://github.com/ktupad/svg"
+url: "https://github.com/ktupad/svg"
+license: MIT
+version: "1.0.0"
+date-released: "2024-01-01"
+
+type: software
+
+keywords:
+  - SVG
+  - icon library
+  - JSON-driven rendering
+  - web framework
+  - DonatJS
+  - vanilla JavaScript
+  - zero dependency
+  - Indonesian web
+  - educational technology
+  - client-side rendering
+  - inline SVG
+  - CSS custom properties
+  - icon gallery
+  - lightweight
+
+references:
+  - type: software
+    title: "DonatJS: A JSON-Driven MVC Web Framework"
+    authors:
+      - family-names: Sismadi
+        given-names: Wawan
+        orcid: "https://orcid.org/0009-0007-2685-5663"
+    year: 2024
+    url: "https://github.com/ktupad/donat"
+    notes: >-
+      DonatJS (EC00202414144) is the parent MVC framework for which
+      SVG.js provides the icon rendering layer.
+
+  - type: software
+    title: "BayamJS: A JavaScript MVC Framework"
+    authors:
+      - family-names: Sismadi
+        given-names: Wawan
+        orcid: "https://orcid.org/0009-0007-2685-5663"
+    year: 2023
+    notes: >-
+      BayamJS (EC00202367008) is the predecessor MVC framework in the
+      Ktupad → BayamJS → DonatJS generational lineage.
+
+  - type: book
+    title: "Pengembangan Aplikasi Web Modern dengan DonatJS"
+    authors:
+      - family-names: Sismadi
+        given-names: Wawan
+    year: 2024
+    publisher:
+      name: P4I
+    isbn: "978-623-848-897-1"
+    notes: >-
+      Reference book documenting the DonatJS ecosystem, of which
+      SVG.js is a component library.
+
+  - type: book
+    title: "Optimasi Penggunaan SVG dalam Web Development"
+    authors:
+      - family-names: Sismadi
+        given-names: Wawan
+    year: 2025
+    publisher:
+      name: P4I
+    isbn: "978-623-876-765-6"
+    notes: >-
+      Reference book covering SVG optimization techniques directly
+      relevant to the SVG.js rendering approach.
